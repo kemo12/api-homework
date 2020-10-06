@@ -1,0 +1,1 @@
+#its a homework for GSG traning to practice in API fetch
