@@ -1,0 +1,46 @@
+body{
+    background-color: #f76161;
+}
+nav{
+    margin-bottom: -25px;
+    background-color: #b94f4f;
+
+}
+.navbar-brand{
+    clip: #bb2d2d;
+    font-family: "Times New Roman", Times, serif;}
+.container{
+    width: 800px;
+    margin-top: 5%;
+    border: 1px solid #dda0a0;
+    padding: 10px;
+    
+}
+.card-img-top{
+ width: 80%;
+height:120%;
+ margin-left: 10%;
+ margin-top: 10px;
+ height: 50%;
+}
+.result-content{
+    display: flex;
+    width: 800px;
+    
+}
+.card{
+    margin: 10px;
+    width: 18rem;
+    height: 20rem;
+}
+.card-body{
+    height: 20%;
+}
+p{
+    font-family: "Lucida Console", Courier, monospace;
+    
+}
+.footer-copyright{
+    margin-top: 10px;
+    background-color: #b94f4f;
+}
