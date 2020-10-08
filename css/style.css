@@ -1,10 +1,46 @@
 body{
     background-color: #f76161;
+    margin: 0px;
 }
-nav{
+.logo h1 {
+    margin:0px;
+    padding: 2px;
+}
+.navbar{
     margin-bottom: -25px;
     background-color: #b94f4f;
+    height: 40px;
+    margin-top: 0px;
+    width: unset;
+    
 
+}
+.input{
+    width: 70%;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #ffffff;
+    padding-left: 10px;
+
+}
+.search{
+    height: 30px;
+    width:100px;
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+    background-color: #f77d7d;
+    color: #ffffff;
+    font-size: 16px;
+    border-color: #ffffff;
+}
+.input-group{
+    display: flex;
+    margin-left: 50px;
+}
+.logo{
+    text-decoration: none;
+    color: white;
 }
 .navbar-brand{
     clip: #bb2d2d;
@@ -14,6 +50,8 @@ nav{
     margin-top: 5%;
     border: 1px solid #dda0a0;
     padding: 10px;
+    margin-left: 15%;
+    margin-right: 25%;
     
 }
 .card-img-top{
@@ -29,18 +67,53 @@ height:120%;
     
 }
 .card{
-    margin: 10px;
+    margin:10px 20px 20px 20px ;
     width: 18rem;
     height: 20rem;
+    background-color: #ffffff;
+    border-radius:10px;
+
 }
 .card-body{
-    height: 20%;
+    margin: 30px 0px 0px 15px;
+
+    border: 1px solid #d3c5c5;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+
 }
 p{
     font-family: "Lucida Console", Courier, monospace;
     
 }
+.page-footer{
+    margin-bottom: -25px;
+    background-color: #b94f4f;
+    height: 40px;
+    margin-top: 0px;
+    width: 100%;
+    margin-top: 30px;
+
+}
 .footer-copyright{
     margin-top: 10px;
     background-color: #b94f4f;
+    width: 100%;
+    text-align: center;
+    padding-top: 8px;
 }
+.row{
+    width: 800px;
+    margin:30px 0px 0px 75px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+  
+
+
+}
+
+

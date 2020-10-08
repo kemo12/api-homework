@@ -54,13 +54,7 @@ else{
         card_text.classList.add('card-text');
         card_text.textContent=alr;
         card_body.appendChild(card_text);
-        result_div.appendChild(col);
-
-        
-        
-        
-        
-        
+        result_div.appendChild(col);        
         
         }); 
     }
